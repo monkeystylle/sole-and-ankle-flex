@@ -1,4 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
+import '@fontsource/raleway/500.css';
+import '@fontsource/raleway/600.css';
+import '@fontsource/raleway/800.css';
 
 const GlobalStyles = createGlobalStyle`
 
@@ -72,7 +75,7 @@ html, body, #__next {
   5. Improve text rendering
 */
 body {
-  line-height: 1.5;
+  line-height: 1.45;
   -webkit-font-smoothing: antialiased;
 }
 /*
@@ -106,8 +109,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 body {
   
-  font-family:   -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 
